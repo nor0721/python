@@ -1,3 +1,18 @@
+20161207
+方針その２
+python(paramiko)等でSSH接続するPG書くと
+チャンネル？が変わるので複数コマンド・対話の処理が難しい
+ cd /documents
+ ls
+してもdocumentsの中身は表示されずにｈｏｍｅの中身が表示される。
+
+なので、raspberry側では引数つけて毎回実行に変える。
+まずは、rubyでgetch使って、キーボード操作できるラジコン目指す。
+pythonでもgetchのクラスがあってWEBにアップされている。
+
+
+
+
 PC側
 ジョイスティックをPCにUSB接続
 pythonで値を取得
